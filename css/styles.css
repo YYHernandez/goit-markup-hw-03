@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --brand-color: #2196f3;
+}
+
+body {
+  color: #212121;
+  background-color: #FFF;
+  font-family: roboto, relaway, sans-serif;
+  font-size: 14px;
+}
+
+.logo {
+  font-family: Raleway;
+  text-decoration: none;
+  color: var(--brand-color);
+  text-align: right;
+  font-size: 26px;
+  letter-spacing: 0.78px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navigation_bar .nav_tap {
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+.navigation_bar :focus {
+  color: var(--brand-color);
+}
+.navigation_bar {
+  list-style: none;
+}
+.navigation_bar :hover {
+  color: var(--brand-color);
+}
+
+
+.navigation_links ._link {
+  color: #757575;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+.navigation_links {
+  list-style: none;
+}
+.navigation_links :hover {
+  color: var(--brand-color);
+}
+
+.main_section {
+  background-color: #2F303A;
+}
+
+.main_title {
+  color: #FFF;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.request_button {
+  text-align: center;
+  border-radius: 4px;
+  background-color: var(--brand-color);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+}
+
+.our_job_list {
+  list-style: none;
+}
+
+.job_title {
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.job_description {
+  color: #757575;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.what_we_do {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.jobpictures{
+  list-style: none;
+}
+
+.team {
+  background-color: #FFF;
+}
+.team_list {
+  list-style: none;
+}
+.team_title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.member_name{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.member_charge {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.footer_logo {
+  color: var(--brand-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.foot_links .contact_address {
+  color: #FFF;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+.foot_links .contact {
+  color: rgba(255, 255, 255, 0.60);
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+.pie_de_pagina{
+  background: #2F303A;
+}
+.foot_links {
+  list-style: none;
+}
+.foot_links :hover {
+  color: var(--brand-color);
+}
+
+.button_ {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  background: #F5F4FA;
+  border: none;
+  cursor: pointer;
+}
+.button_:hover {
+  background: var(--brand-color);
+  color: #FFF;
+}
+.button_:focus {
+  background: #2196F3;
+  color: #FFF;
+}
+.button_list {
+  list-style: none;
+}
+
+.pro-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+.pro_description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87
+  letter-spacing: 0.48px;
+}
+.projects {
+  list-style: none;
+}
